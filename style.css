@@ -18,7 +18,7 @@ h1{
 }
 .half-width{
     width:50%;
-    padding:5em;
+    padding:3em 5em;
 }
 .half-width img{
     width:100%;
@@ -54,4 +54,45 @@ background-position:right;
     margin-bottom:0.4em;
     font-weight: 900;
     color:orange;
+}
+.experience-flex{
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+.experience-box{
+    width:50%;
+    height:350px;
+    box-shadow:5px 5px 10px 5px gray;
+    padding:2em;
+    margin:2em;
+    overflow: hidden;
+}
+.novo-box{
+    border-image:linear-gradient(blue, cyan);
+    border-left:7px solid;
+    border-image-slice: 1;
+}
+.pro-box{
+    border-image:linear-gradient(orange, tomato);
+    border-left:7px solid;
+    border-image-slice: 1;
+}
+.experience-box h2{
+    font-size: 40px;
+    font-weight:900;
+    margin-bottom:0.6em;
+}
+.experience-box .experience-orange{
+    color:orange;
+    margin-bottom:1em;
+}
+footer{
+    text-align:center;
+    margin-top:8em;
+    opacity:0.5;
+    font-size:13px;
+    font-style: italic;
+
 }

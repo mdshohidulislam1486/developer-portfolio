@@ -62,12 +62,15 @@ background-position:right;
     
 }
 .experience-box{
+
     width:50%;
-    height:350px;
+    
     box-shadow:5px 5px 10px 5px gray;
     padding:2em;
     margin:2em;
     overflow: hidden;
+    display:flex;
+    flex-direction: column;
 }
 .novo-box{
     border-image:linear-gradient(blue, cyan);

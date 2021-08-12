@@ -102,3 +102,24 @@ footer{
     font-style: italic;
 
 }
+
+@media screen and (max-width:800px) {
+    .section-1, .section-2, .experience-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:20px;
+
+    }
+    .half-width{
+        width:90%;
+        padding:1em 3em;
+    }
+    .experience-box{
+
+        width:90%;
+        padding:1em;
+        margin:1em;
+    }
+}
